@@ -1,0 +1,63 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+hr,
+td {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*::before{
+  box-sizing: border-box;
+}
+*::after{
+  box-sizing: border-box;
+}
+
+.html-mode {
+  animation: flip 2s;
+  -webkit-animation: flip 2s;
+}
+  
+@keyframes flip {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flip {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
